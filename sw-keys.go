@@ -12,7 +12,7 @@ import (
 	"log"
 )
 
-func generateKeys() {
+func GenerateKeys() {
 	savePrivateFileTo := "./id_rsa"
 	savePublicFileTo := "./id_rsa.pub"
 	bitSize := 4096
